@@ -1,0 +1,8 @@
+train: "/fml/images/train"
+val: "/fml/images/val"
+
+
+# Classes
+
+names:
+  0: garbage
