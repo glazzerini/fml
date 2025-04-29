@@ -1,6 +1,6 @@
 # Floating Marine Litter (FML) Dataset
 
-The Floating Marine Litter (FML) Dataset comprises approximately 5500 floating marine litter optical images and 14000 bounding box single-class "garbage" annotations, tailored for the object detection task. The images were taken from a first-person perspective using a camera mounted on an Unmanned Surface Vehicle (USV). The images were collected in diverse lighting conditions and camera setups across inland and coastal water bodies. The dataset is published on the SEA scieNtific Open data Edition SEANOE repository (\url{https://www.seanoe.org/}) and it is available with the following DOI \url{https://doi.org/10.17882/106148}. The images are all in 1920 x 1080 resolution and .jpg format.
+The Floating Marine Litter (FML) Dataset comprises approximately 5500 floating marine litter optical images and 14000 bounding box single-class "garbage" annotations, tailored for the object detection task. The images were taken from a first-person perspective using a camera mounted on an Unmanned Surface Vehicle (USV). The images were collected in diverse lighting conditions and camera setups across inland and coastal water bodies. The dataset is published on the SEA scieNtific Open data Edition SEANOE repository (https://www.seanoe.org/) and it is available with the following DOI https://doi.org/10.17882/106148. The images are all in 1920 x 1080 resolution and .jpg format.
 
 ![folder_structure](https://github.com/user-attachments/assets/6320dc76-f88c-43dc-883d-6b5710ba608a)
 
