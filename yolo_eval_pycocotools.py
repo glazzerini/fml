@@ -12,7 +12,7 @@ from ultralytics import YOLO
 # Define paths
 image_dir = "/fml/images/test"
 label_dir = "/fml/labels/yolo_format/test"
-model_path = "/models/yolov8s_model.pt"
+model_path = "/models/yolov8s_fml.pt"
 
 # Load YOLO model
 model = YOLO(model_path)
