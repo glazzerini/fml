@@ -10,8 +10,8 @@ from torchvision.transforms import functional as F
 from ultralytics import YOLO
 
 # Define paths
-image_dir = "/fml/images/test"
-label_dir = "/fml/labels/yolo_format/test"
+image_dir = "/fml_v2/full_dataset/images/test"
+label_dir = "/fml_v2/full_dataset/labels/yolo_format/test"
 model_path = "/models/yolov8s_fml.pt"
 
 # Load YOLO model
