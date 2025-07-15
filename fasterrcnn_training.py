@@ -72,10 +72,10 @@ class YoloDataset(Dataset):
 # Define transformations
 transform = T.Compose([T.ToTensor()])
 
-training_images_path = "/fml/images/train"
-training_labels_path = "/fml/labels/yolo_format/train"
-validation_images_path = "/fml/images/val"
-validation_labels_path = "/fml/labels/yolo_format/val"
+training_images_path = "/fml_v2/full_dataset/images/train"
+training_labels_path = "/fml_v2/full_dataset/labels/yolo_format/train"
+validation_images_path = "/fml_v2/full_dataset/images/val"
+validation_labels_path = "/fml_v2/full_dataset/labels/yolo_format/val"
 
 # Create datasets
 train_dataset = YoloDataset(training_images_path, training_labels_path, transform)
