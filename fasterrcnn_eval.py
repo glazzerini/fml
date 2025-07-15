@@ -15,15 +15,15 @@ from tqdm import tqdm  # To show progress bar
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define paths
-image_dir = "/fml/images/test"
-label_dir = "/fml/labels/yolo_format/test"
+image_dir = "/fml_v2/full_dataset/images/test"
+label_dir = "/fml_v2/full_dataset/labels/yolo_format/test"
 
 # Load trained model
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(weights=FasterRCNN_ResNet50_FPN_Weights.DEFAULT)
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, 2)
 model.load_state_dict(torch.load(
-    "/models/fasterrcnn_epoch_7_20250228-180653.pth",
+    "/models/fasterrcnn_fml.pth",
     map_location=device))
 model.to(device)
 model.eval()
