@@ -15,8 +15,8 @@ from tqdm import tqdm  # To show progress bar
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define paths
-image_dir = "/fml_v2/full_dataset/images/test"
-label_dir = "/fml_v2/full_dataset/labels/yolo_format/test"
+image_dir = "/fml_version2/full_dataset/images/test"
+label_dir = "/fml_version2/full_dataset/labels/yolo_format/test"
 
 # Load trained model
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(weights=FasterRCNN_ResNet50_FPN_Weights.DEFAULT)
