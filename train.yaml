@@ -1,5 +1,5 @@
-train: "/fml_v2/full_dataset/images/train"
-val: "/fml_v2/full_dataset/images/val"
+train: "/fml_version2/full_dataset/images/train"
+val: "/fml_version2/full_dataset/images/val"
 
 
 # Classes
